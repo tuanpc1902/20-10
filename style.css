@@ -448,6 +448,14 @@ body {
 }
 
 /* Responsive */
+@media (max-width: 1920px) {
+    .envelope.open .letter {
+
+        top: -10%;
+        
+    }
+}
+
 @media (max-width: 768px) {
     .container {
         padding: 10px;
