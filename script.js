@@ -228,7 +228,7 @@ Em là bông hoa đẹp nhất, là nguồn cảm hứng và động lực để
 
 Chúc em luôn xinh đẹp, khỏe mạnh và hạnh phúc. Mong nụ cười luôn nở trên môi em.
 
-Anh yêu em!
+Anh yêu em nhiều lắm!
 
 Chúc mừng ngày Phụ nữ Việt Nam 20/10!`;
 
