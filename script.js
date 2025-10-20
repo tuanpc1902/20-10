@@ -230,7 +230,7 @@ Chúc em luôn xinh đẹp, khỏe mạnh và hạnh phúc. Mong nụ cười lu
 
 Anh yêu em! 💕
 
-Chúc mừng ngày Phụ nữ Việt Nam 20/10! 🌷❤️`;
+Chúc mừng ngày Phụ nữ Việt Nam 20/10! 🌸❤️`;
 
         this.init();
     }
