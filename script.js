@@ -5,7 +5,7 @@ class ParticleSystem {
         this.ctx = this.canvas.getContext('2d');
         this.particles = [];
         this.flowers = ['🌸', '🌺', '🌻', '🌷', '🌹', '🌼', '🌿', '🍀', '💐', '🏵️', '🥀', '🪷', '🪻', '🌵', '🌺', '🌻', '🌷', '🌹', '🌼'];
-        this.hearts = ['💖', '💕', '💗', '💝', '💘', '💓', '💞', '💟', '❤️', '🧡', '💛', '💚', '💙', '💜', '🤍', '🖤'];
+        this.hearts = ['💖', '💕', '💗', '💝', '💘', '💓', '💞', '💟', '❤️', '🧡', '💛', '💚', '💙', '💜', '🤍'];
         
         this.resizeCanvas();
         this.createParticles();
@@ -152,7 +152,7 @@ class ConfettiEffect {
     
     createConfetti() {
         const colors = ['#ff6b6b', '#4ecdc4', '#45b7d1', '#f9ca24', '#f0932b', '#eb4d4b', '#6c5ce7', '#fd79a8', '#fdcb6e'];
-        const shapes = ['🌸', '🌺', '🌷', '💖', '✨', '⭐', '💐', '🌹'];
+        const shapes = ['🌸', '🌺', '🌷', '💖', '✨', '⭐', '💐', '🌹', '💗', '💝', '💘', '💓', '💞', '💟', '❤️', '🧡', '💛', '💚', '💙', '💜', '🤍'];
         
         for (let i = 0; i < 80; i++) {
             const confetti = document.createElement('div');
@@ -186,7 +186,7 @@ class ConfettiEffect {
 // Sparkle Effect
 class SparkleEffect {
     create() {
-        const sparkles = ['✨', '⭐', '💫', '🌟', '💖', '💕'];
+        const sparkles = ['✨', '⭐', '💫', '🌟', '💖', '💕', '💗', '💝', '💘', '💓', '💞', '💟', '❤️', '🧡', '💛', '💚', '💙', '💜', '🤍'];
         
         for (let i = 0; i < 30; i++) {
             setTimeout(() => {
@@ -230,7 +230,7 @@ Chúc em luôn xinh đẹp, khỏe mạnh và hạnh phúc. Mong nụ cười lu
 
 Anh yêu em! 💕
 
-Chúc mừng ngày Phụ nữ Việt Nam 20/10! 🌹💖`;
+Chúc mừng ngày Phụ nữ Việt Nam 20/10! 🌷❤️`;
 
         this.init();
     }
@@ -256,7 +256,7 @@ Chúc mừng ngày Phụ nữ Việt Nam 20/10! 🌹💖`;
         
         setTimeout(() => {
             const isMobile = window.innerWidth <= 768;
-            const typingSpeed = isMobile ? 25 : 35;
+            const typingSpeed = isMobile ? 35 : 45;
             const typewriter = new TypewriterEffect(this.letterContent, this.message, typingSpeed);
             typewriter.start();
         }, 1000);
@@ -281,7 +281,7 @@ Chúc mừng ngày Phụ nữ Việt Nam 20/10! 🌹💖`;
         title.addEventListener('click', () => {
             title.style.animation = 'none';
             setTimeout(() => {
-                title.style.animation = 'pulse 1s ease-in-out';
+                title.style.animation = 'pulse 1.2s ease-in-out';
             }, 10);
         });
     }
